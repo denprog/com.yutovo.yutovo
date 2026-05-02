@@ -63,7 +63,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/sethtroisi/libgmp.git
-        commit: 21623db
+        commit: 21623db4e60c9f0a87e35bae46509c016ebc6786
     build-commands:
       - ./.bootstrap
       - ./configure --enable-static --disable-shared --enable-cxx --libdir=/app/lib/ --prefix=/app/
